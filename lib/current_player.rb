@@ -13,8 +13,5 @@ def occupied?(board, square)
 end
 
 def current_player(board)
-  if turn_count(board) % 2 == 0
-    return "X"
-  end
-  return "O"
+  return turn_count(board) % 2 == 0 ? "X" : "O"
 end
