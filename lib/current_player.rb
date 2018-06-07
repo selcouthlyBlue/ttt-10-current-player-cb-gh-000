@@ -9,5 +9,5 @@ def turn_count(board)
 end
 
 def occupied?(board, square)
-  return !square || square == " " || square == ""
+  return square && square != " " && square != ""
 end
