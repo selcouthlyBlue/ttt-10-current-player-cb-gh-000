@@ -1,12 +1,12 @@
 def turn_count(board)
   count = 0
-  board.each do |position|
-    if occupied?(board, position)
+  board.each do |square|
+    if occupied?(board, square)
       count += 1
     end
   end
 end
 
-def occupied?(board, position)
-  return !status || status == " " || status == ""
+def occupied?(board, square)
+  return !square || square == " " || square == ""
 end
