@@ -1,9 +1,7 @@
 def turn_count(board)
   count = 0
   board.each do |position|
-    if occupied?(board, position)
-      count += 1
-    end
+    if occupied?(board, position){count += 1}
   end
 end
 
