@@ -13,5 +13,5 @@ def occupied?(board, square)
 end
 
 def current_player(board)
-  
+
 end
