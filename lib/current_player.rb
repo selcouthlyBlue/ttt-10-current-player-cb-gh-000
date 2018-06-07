@@ -8,6 +8,5 @@ def turn_count(board)
 end
 
 def occupied?(board, position)
-  status = board[position]
   return !status || status == " " || status == ""
 end
