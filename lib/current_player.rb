@@ -11,3 +11,7 @@ end
 def occupied?(board, square)
   return square && square != " " && square != ""
 end
+
+def current_player(board)
+  
+end
